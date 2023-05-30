@@ -1,0 +1,59 @@
+ul li {
+    display: inline;
+    color: white;
+    margin-left: 20px;
+  }
+  ul {
+    background-color: #152238;
+    padding: 10px;
+  }
+  
+  ul li:hover {
+    border: 1px solid white;
+    padding: 5px;
+  }
+  #nav-bar {
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+  }
+  
+  .btn {
+    position: absolute;
+    right: 30px;
+    background-color: #152238;
+    color: white;
+    border: 0px;
+  }
+  .btn:hover {
+    border: 1px solid white;
+    padding: 5px;
+  }
+
+#para{
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 120%;
+    background-color: orchid  ;
+    color: orangered;
+}
+
+#gp3{
+  width: 90%;
+  height: 200px;
+  background-color: cadetblue;
+  color: chocolate;
+  font-weight: bolder ;
+  position: relative;
+  top: 100px;  
+  display: flex;
+  justify-content: space-evenly;
+  border: 10px solid black;   
+  align-items: center;
+  
+}
+#d1{ 
+  margin-left: 30%;
+}
